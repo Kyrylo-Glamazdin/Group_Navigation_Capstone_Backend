@@ -1,23 +1,23 @@
 const Sequalize = require('sequelize');
 const db = require('../db');
 
-const campus = db.define("campuses", {
+const group = db.define("groups", {
     name:{
         type: Sequalize.STRING,
         allowNull: false
     },
-    bio:{
-        type: Sequalize.STRING,
-        allowNull: true
-    },
-    address:{
+    users:{
         type: Sequalize.STRING,
         allowNull: false
     },
-    img:{
+    latitude:{
         type: Sequalize.STRING,
-        allowNull: true
+        allowNull: false
+    },
+    longitude:{
+        type: Sequalize.STRING,
+        allowNull: false
     }
 });
 
-module.exports = campus;
+module.exports = group;

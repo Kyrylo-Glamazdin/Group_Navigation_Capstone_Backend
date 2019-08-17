@@ -16,9 +16,17 @@ const users = db.define("users", {
     type: Sequalize.STRING,
     allowNull: false
   },
-  img: {
+  image: {
     type: Sequalize.STRING,
     allowNull: true
+  },
+  curLat: {
+    type: Sequalize.STRING,
+    allowNull: false
+  },
+  curLon: {
+    type: Sequalize.STRING,
+    allowNull: false
   }
 });
 
@@ -41,5 +49,5 @@ function validateUser(user) {
   return Joi.validate(user, schema);
 }
 
-exports.users = users; // ------------------- module.exports
+module.exports = users; // ------------------- module.exports
 exports.validate = validateUser;
