@@ -22,9 +22,9 @@ npm start
 ## Built With
 
 * [Express](https://expressjs.com/)
-* [Sequelize] (https://sequelize.org/)
-* [Socket.io] (https://socket.io/)
-* [PostgreSQL] (https://www.postgresql.org/)
+* [Sequelize](https://sequelize.org/)
+* [Socket.io](https://socket.io/)
+* [PostgreSQL](https://www.postgresql.org/)
 
 ## Authors
 
