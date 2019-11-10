@@ -5,7 +5,7 @@ This is the back-end repository of the Group Navigation Project. For the descrip
 ## How to install and run the server
 
 Please note that this is only the back-end part of the application. In order to run the app, you also need to follow the directions listed in [this repository](https://github.com/Kyrylo-Glamazdin/Group_Navigation_Capstone_Frontend).
-Alternatively, you can click [here](https://group-navigation-frontend.herokuapp.com/) and use the hosted version of this application.
+Alternatively, you can click [here](https://meet-up-web-app.herokuapp.com/) and use the hosted version of this application.
 If you decide to download the app:
 1. Make sure that you're in the needed directory and type
 ```
@@ -17,7 +17,7 @@ npm start
 ```
 ## Deployment
 
-[Deployed App](https://group-navigation-frontend.herokuapp.com/)
+[Deployed App](https://meet-up-web-app.herokuapp.com/)
 
 ## Built With
 
